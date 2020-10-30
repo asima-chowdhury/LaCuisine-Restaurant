@@ -1,0 +1,186 @@
+/* Normal desktop :992px*/
+@media (min-width: 992px) and (max-width: 1200px){
+	.column{width:970px}
+	.banner-text h2 {
+		font-size: 35px;
+		margin-bottom: 10px;
+	}
+	.banner-text h1 {
+		font-size: 50px;
+		margin-bottom: 10px;
+	}
+	.btn::after {
+		height: 59px;
+		width: 180px;
+		top: 9px;
+	}
+	.btn::before {
+		height: 85px;
+		width: 153px;
+		top: -4px;
+	}
+	.btn {
+		padding: 10px 30px;
+	}
+	.team-name h4 {
+		font-size: 20px;
+	}
+	.menu-content h3 {
+		font-size: 20px;
+	}
+}
+/* Tablet layout :768px */
+@media (min-width: 768px) and (max-width: 991px){
+	.column{
+		width:750px;
+	}
+	.pad-100,.pad-50{
+		padding: 15px 0;
+	}
+	.logo {
+		float: none;
+		text-align: center;
+	}
+	.banner-text h2 {
+		font-size: 35px;
+		line-height: 30px;
+		margin-bottom: 5px;
+	}
+	.banner-text h1 {
+		font-size: 40px;
+		line-height: 40px;
+		margin-bottom: 20px;
+	}
+	.banner-text a {
+		padding: 5px 35px;
+	}
+	.btn {
+		line-height: 25px;
+	}
+	.btn::after {
+		height: 34px;
+		width: 191px;
+		left: 6px;
+	}
+	.btn::before {
+		height: 53px;
+		width: 165px;
+		top: -9px;
+		left: 17px;
+	}
+	.btn-sqaure {
+		padding: 5px 30px;
+		font-size: 14px;
+	}
+	.section-title h1 {
+		font-size: 30px;
+	}
+	.col-4 {
+		width: 50%;
+		margin-bottom: 30px;
+	}
+	.single-footer h4, .single_service h4 {
+		font-size: 21px;
+	}
+	.menu-content h3 {
+		font-size: 18px;
+	}
+	.reservation-area {
+		font-size: 18px;
+	}
+	.single-count h2 {
+		font-size: 25px;
+		padding: 0;
+	}
+}
+/* Small Mobile :320px */
+@media (max-width: 767px){
+	.column{width:300px}
+	.logo {
+		float: none;
+		text-align: center;
+	}
+	.banner-area {
+		clear: both;
+	}
+	.menu ul li a {
+		padding: 8px 10px;
+		display: block;
+	}
+	.menu {
+		float: none;
+		text-align: center;
+	}
+	.banner-text h1, .banner-text h2,.section-title h1,.special-dish-content h2 {
+		font-size: 25px;	
+		line-height: 28px;
+		margin-bottom: 10px;
+	}
+	.banner-text img,.banner-text a,.services-img,.reservation-area a{
+		display: none;
+	}
+	.pad-100,.pad-50{
+		padding: 5px 0;
+	}
+	.btn-sqaure {
+		padding: 5px 10px;
+		font-size: 13px;
+	}
+	.about-info p, .services-info p, .special-dish-content p, .testimonial-text p, .single_service p, .menu-content p {
+		padding: 5px 0px;
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.single-service {
+		margin-bottom: 0px;
+		padding: 10px 0px;
+	}
+	.single-menu-list {
+		height: 144px;
+		padding-left: 125px;
+	}
+	.single-menu-list img {
+		width: 120px;
+	}
+	.menu-content h3 {
+		font-size: 16px;
+	}
+	.single-count h2 {
+		font-size: 20px;
+		line-height: 17px;
+		padding: 5px 0;
+	}
+	.testimonial-content {	
+		padding: 10px 0px;
+	}
+	.input-field input {
+		padding: 5px;
+	}
+	.cta-message h4 ,.reservation-area {
+		font-size: 15px;
+	}
+	.col-4 {
+		width: 100%;
+		margin-bottom: 30px;
+	}
+	.col-3 {
+		width: 100%;
+	}
+	.col-2 {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.input-field {
+		margin-bottom: 9px;
+	}
+	.message-box {
+		padding: 0;
+	}
+	.footer-area {
+		font-size: 11px;
+	}
+}
+/* Large Mobile :480px */
+@media only screeen and (min-width:480px) and (max-width:767px){
+	.column{width:450px}
+}
